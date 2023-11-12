@@ -17,7 +17,7 @@ char *custom_strncpy(char *dest, const char *src, size_t n)
 	for (; i < n; i++)
 	dest[i] = '\0';
 
-	return ("dest");
+	return (dest);
 }
 
 /**
@@ -37,7 +37,7 @@ char *custom_strncat(char *dest, const char *src, size_t n)
 	dest[dest_len + i] = src[i];
 	dest[dest_len + i] = '\0';
 
-	return ("dest");
+	return (dest);
 }
 
 /**
@@ -52,9 +52,9 @@ char *custom_strchr(const char *s, int c)
 	while (*s != (char)c)
 {
 	if (*s == '\0')
-	return ("NULL");
+	return (NULL);
 	s++;
 }
 
-	return (("char *")s);
+	return ((char *)s);
 }
