@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "shell.h"
+#include <shell.h>
 /**
  ** free_pointer - frees pointer
  ** @ptr: address of pointer
